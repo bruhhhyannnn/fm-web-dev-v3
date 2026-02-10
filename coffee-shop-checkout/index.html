@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍵</text></svg>"
+    />
+    <title>Checkout | Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h3>☕ Coffee Masters</h3>
+      </header>
+      <div class="main flex flex-center direction-column">
+        <section class="full-width flex">
+          <div class="main-content full-width flex g-5">
+            <!-- Checkout details -->
+            <div class="cart g-5 full-width box flex direction-column">
+              <p class="header">ITEMS</p>
+              <div class="item-row flex">
+                <p class="item-quantity">1x</p>
+                <div class="item-group">
+                  <p class="item-title">Cappucino</p>
+                  <p class="item-description">Light foam</p>
+                </div>
+                <p class="item-price">$1.50</p>
+              </div>
+              <div class="item-row flex">
+                <p class="item-quantity">1x</p>
+                <div class="item-group">
+                  <p class="item-title">Cappucino</p>
+                  <p class="item-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quos dolore error quod ducimus. Pariatur obcaecati odit
+                    necessitatibus laboriosam voluptatum autem dolorem
+                    quibusdam. Voluptatum in recusandae eveniet deserunt dolorem
+                    autem ratione?
+                  </p>
+                </div>
+                <p class="item-price">$1,000.50</p>
+              </div>
+              <div class="item-row flex">
+                <p class="item-quantity">1x</p>
+                <div class="item-group">
+                  <p class="item-title">Cappucino</p>
+                  <p class="item-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    labore sed harum veritatis deserunt, sit cupiditate rerum
+                    porro eligendi deleniti, totam velit inventore? Accusantium
+                    porro nobis deserunt, nesciunt animi sapiente.
+                  </p>
+                </div>
+                <p class="item-price">$10,000.50</p>
+              </div>
+            </div>
+            <!-- Form details -->
+            <div class="form full-width flex direction-column g-5">
+              <!-- Profile details -->
+              <div class="items box g-5 flex direction-column">
+                <p class="header">NAME</p>
+                <div class="input-group">
+                  <label for="name" class="label">Name for order</label>
+                  <input type="text" id="name" />
+                </div>
+              </div>
+              <!-- Payment details -->
+              <div class="items box g-5 flex direction-column">
+                <p class="header">PAYMENT</p>
+                <div class="input-group">
+                  <label for="card" class="label">Card number</label>
+                  <input type="text" id="card" />
+                </div>
+                <div class="input-group cvv-input">
+                  <label for="cvv" class="label">CVV number</label>
+                  <input type="text" id="cvv" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Checkout details -->
+        <section class="checkout full-width flex flex-center direction-column">
+          <div class="checkout-details flex full-width direction-column">
+            <div class="checkout-row flex">
+              <p class="checkout-label">Subtotal:</p>
+              <p class="checkout-value">$19.27</p>
+            </div>
+            <div class="checkout-row flex">
+              <p class="checkout-label">Tax:</p>
+              <p class="checkout-value">$0.96</p>
+            </div>
+            <div class="checkout-row flex">
+              <p class="checkout-label font-bold">Total:</p>
+              <p class="checkout-value font-bold">$20.23</p>
+            </div>
+            <button class="order full-width">Place order</button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

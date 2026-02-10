@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(238, 238, 238);
+}
+
+h3,
+p,
+button,
+input,
+label {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+input {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  border: 3px solid #deb993;
+  padding: 12px 24px;
+  border-radius: 100px;
+  background-color: #eee1d5;
+}
+
+input:hover {
+  border: 3px solid #43281c;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #43281c;
+}
+
+header {
+  background-color: #43281c;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #fbf2c0;
+}
+
+/* Reusable styles, mimic tailwind stuffs */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.box {
+  padding: 36px 20px;
+  background-color: #eee1d5;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.g-5 {
+  gap: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Header style */
+.header {
+  color: #43281c;
+}
+
+/* Cart styles */
+.main {
+  padding: 20px;
+  background-color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.item-row {
+  gap: 20px;
+  border-bottom: 3px solid #deb993;
+  padding-bottom: 20px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.item-row:hover {
+  background-color: #deb993;
+}
+
+.item-group {
+  flex: 1;
+}
+
+.item-title,
+.item-price {
+  font-weight: bold;
+}
+
+.item-title {
+  padding-bottom: 10px;
+}
+
+.item-description {
+  color: #b08968;
+}
+
+/* Form styles */
+.input-group {
+  position: relative;
+}
+
+.label {
+  font-size: 0.8rem;
+  position: absolute;
+  top: -6px;
+  left: 28px;
+  background-color: #eee1d5;
+  padding: 0 3px;
+}
+
+.cvv-input {
+  max-width: 200px;
+}
+
+/* Checkout styles */
+.checkout-details {
+  max-width: 410px;
+  gap: 16px;
+}
+
+.checkout-row {
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.order {
+  background-color: #deb993;
+  border-radius: 100px;
+}
+
+/* Mobile */
+@media (max-width: 810px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
