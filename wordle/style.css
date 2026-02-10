@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+  background-color: rgb(238, 238, 238);
+}
+
+main {
+  margin: 40px 0;
+  padding: 12px;
+  width: 100%;
+  max-width: 810px;
+}
+
+a,
+h3,
+p,
+label,
+input,
+ul,
+ol,
+button {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+input {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  border: 3px solid rgb(75, 75, 75);
+  padding: 12px 24px;
+  border-radius: 100px;
+}
+
+input:hover {
+  border: 3px solid rgb(61, 61, 61);
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*  */
+.description {
+  font-style: italic;
+}
+
+.wordle {
+  background-color: white;
+  padding: 20px;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.input-group {
+  position: relative;
+}
+
+.label {
+  font-size: 0.8rem;
+  position: absolute;
+  top: -6px;
+  left: 28px;
+  background-color: white;
+  padding: 0 3px;
+}
+
+.second-label {
+  font-size: 0.8rem;
+  text-align: end;
+  line-height: 1.2rem;
+}
+
+/*  */
+
+.again {
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+
+.green {
+  color: green;
+}
+.yellow {
+  color: rgb(190, 190, 1);
+}
+.red {
+  color: red;
+}
+
+.note {
+  color: rgb(75, 75, 75);
+}
+
+.first-letter-hint {
+  text-transform: uppercase;
+}

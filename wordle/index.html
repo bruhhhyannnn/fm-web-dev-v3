@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔠</text></svg>"
+    />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body class="flex-center">
+    <main>
+      <section>
+        <div class="wordle flex-center">
+          <p class="error hidden"></p>
+          <header class="text-center">
+            <h3>Wordle Game</h3>
+            <p class="description">Guess the 5 letter word game</p>
+          </header>
+          <div class="input-group full-width">
+            <label for="guess" class="label">Guess the letter</label>
+            <input class="input" id="guess" />
+            <p class="second-label">Press enter to guess</p>
+          </div>
+          <div class="full-width font-bold">
+            <p class="guess">Your guesses:</p>
+            <p class="valid red hidden text-center"></p>
+            <p class="won green hidden text-center">You guessed the correct word!</p>
+            <button class="again hidden">Play Again</button>
+          </div>
+          <div class="legend full-width">
+            <p>Legend</p>
+            <ol>
+              <li>
+                <span class="green font-bold">green</span> color means correct
+                letter and placement
+              </li>
+              <li>
+                <span class="yellow font-bold">yellow</span> color means correct
+                letter and but not correct placement
+              </li>
+              <li>
+                <span class="red font-bold">red</span> color means incorrect
+                letter
+              </li>
+            </ol>
+          </div>
+          <div class="note full-width">
+            <p>Note</p>
+            <ul>
+              <li>The word validation should only be 5 letter word.</li>
+              <li>Every load of the page will randomize a word.</li>
+            </ul>
+          </div>
+          <div class="hint full-width text-center">
+            <p>
+              Hint: The word starts with letter '<span
+                class="first-letter-hint"
+              ></span
+              >'
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
