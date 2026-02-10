@@ -23,6 +23,19 @@ This repository serves as a code laboratory for practicing DOM manipulation, fle
 
 ---
 
+## Projects Gallery
+
+Each project below was built from scratch during each course sections.
+
+| Project Name             | Folder                                            | Live Demo                                                    | Focus Area                  |
+| :----------------------- | :------------------------------------------------ | :----------------------------------------------------------- | :-------------------------- |
+| **Newspaper**            | [`/newspaper`](./newspaper)                       | [View Live 🔗](https://fm-web-dev-v3-newspaper.vercel.app)   | CSS Grid & Typography       |
+| **Calculator**           | [`/calculator`](./calculator)                     | [View Live 🔗](https://fm-web-dev-v3-calculator.vercel.app)  | JS Logic & Event Listeners  |
+| **Coffee Shop Checkout** | [`/coffee-shop-checkout`](./coffee-shop-checkout) | [View Live 🔗](https://fm-web-dev-v3-coffee-shop.vercel.app) | Responsive Design & Flexbox |
+| **Wordle Clone**         | [`/wordle`](./wordle)                             | [View Live 🔗](https://fm-web-dev-v3-wordle.vercel.app)      | Async APIs & Complex Logic  |
+
+---
+
 ## Key Learnings
 
 Throughout this course, I implemented:
